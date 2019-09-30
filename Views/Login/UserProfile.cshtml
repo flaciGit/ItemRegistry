@@ -1,0 +1,61 @@
+﻿@model ItemRegistry.Models.Users
+
+@{
+    ViewBag.Title = "User Profile";
+}
+
+
+<h2>User Profile</h2>
+
+<div>
+    <h4>Information</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.Balance)
+        </dt>*@
+
+        @*<dd>
+            @Html.DisplayFor(model => model.Balance)
+        </dd>*@
+
+        @*<dt>
+                @Html.DisplayNameFor(model => model.CustomerPassword)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.CustomerPassword)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ConfirmPassword)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ConfirmPassword)
+            </dd>*@
+
+            <dt>
+                @Html.DisplayNameFor(model => model.IsAdmin)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.IsAdmin)
+            </dd>
+
+    </dl>
+</div>
+
+        @*<p>
+            @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+            @Html.ActionLink("Back to List", "Index")
+        </p>*@
+
